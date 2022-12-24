@@ -5,5 +5,4 @@ favorite_places = {
     'maria': 'torre eiffel',
 }
 for name, places in favorite_places.items():
-    print(
-        f'Meu nome é {name.title()} e meu lugar favorito é {places.title()}.')
+    print(f'Meu nome é {name.title()} e meu lugar favorito é {places.title()}.')  # noqa
